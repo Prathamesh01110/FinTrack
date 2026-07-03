@@ -38,7 +38,7 @@ HTML email templates are used to send professional-looking emails.
 ## Send Mail Function
 
 Email sending function is available inside the project.
-
+src/api/email.js
 > **Important:** Replace placeholder emails (e.g. `110`, `144`) with your own email address before deployment.
 
 ---

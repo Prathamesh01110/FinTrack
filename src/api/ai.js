@@ -38,7 +38,7 @@ export async function scanReceipt(imageBase64, mimeType = 'image/jpeg') {
                 type: 'text',
                 text: `Analyze this receipt image and extract information. Respond ONLY with a JSON object:
 {
-  "merchant": "store name",
+  "merchant": "store name id",
   "amount": numeric_amount_or_null,
   "date": "YYYY-MM-DD or null",
   "category": "one of: ${EXPENSE_CATEGORIES.join(', ')}",
